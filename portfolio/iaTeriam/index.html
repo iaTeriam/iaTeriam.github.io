@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Smart</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="slick/slick.css">
+	<link rel="stylesheet" href="slick/slick-theme.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header id="main">
+	<div class="video-container">
+        <div class="filter"></div>
+        <video autoplay loop class="fillWidth">
+            <source src="video-bg/MP4/Morning-Routine.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+            <source src="video-bg/WEBM/Morning-Routine.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+        </video>
+        <div class="poster hidden">
+            <img src="video-bg/Snapshots/Morning-Routine.jpg" alt="">
+        </div>
+    </div>
+	<div class="container">
+		<div class="row main_head">
+			<div class="col-xs-6 main_logo">
+				<div class="main_logo_border wow pulse ">
+					<p><span class="color_logo">S</span>mart</p>
+				</div>
+			</div>
+			<div class="col-xs-6 main_nav">
+				<a class="main_nav_bar" href="#">
+					<span class="line"></span>
+				</a>
+			</div>
+		</div>
+		<div class="row main-text wow fadeInDown">
+			<div class="col-xs-8 col-xs-offset-2 text-center">
+				<h1><span>Smart</span> Agency Landing Page</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, fuga provident. Libero magni quibusdam labore ad iste saepe hic, maxime qui ipsum tempore beatae, volu tomi ptates        doloremque rerum asp dolorum at!</p>
+			</div>
+		</div>
+		<div class="row wow fadeInLeft">
+			<div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+				<div class="main-form text-center">
+					<p><span>Send</span> A Message</p>
+					<form id="main_form_ajax" action="smart.php" method="POST">
+					<input type="hidden" name="whatever" value="Главная форма">
+						<input id="userName" type="text" name="username" placeholder="Your Name">
+						<input type="email" name="email" required placeholder="Your Email ">
+						<input type="phone" id="phone" name="email" required placeholder="Your Phone ">
+						<textarea name="user_message" rows="3" placeholder="Your Message"></textarea>
+						<button id="submit-form" class="main-form-btn" type="sabmit">Send Message <i class="fa fa-long-arrow-right"></i></button>
+					</form>
+				</div>
+			</div>
+		</div> <!--/row-->
+	</div>	<!--/container-->
+	</header>
+
+	<section id="process">
+		<div class="container">
+			<div class="row wow fadeInDown">
+				<div class="col-lg-12 section-header text-center ">
+					<h2><span>Working</span>  Process</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat voluptas repudiandae consectetur at ducimus.</p>
+				</div>
+			</div> <!-- /row -->
+			<div class="row ">
+				<div class="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2  wow fadeInLeft">
+					<div class="process-box box-tomi">
+					<i class="fa fa-magnet"></i>
+					<h4>Koc Koi Tomi</h4>
+					<p>Lorem ipsum is dummy lorem very dumy</p>
+					<button data-toggle="modal" data-target="#modal-3" class="process-btn"><i class="fa fa-plus"></i> Know More</button>
+					</div>
+				</div>
+				<div class="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2 wow fadeInLeft">
+					<div class="process-box box-koimona">
+					<i class="fa fa-bug"></i>
+					<h4>Koimona Set</h4>
+					<p>Lorem ipsum is dummy lorem very dumy</p>
+					<button data-toggle="modal" data-target="#modal-3" class="process-btn"><i class="fa fa-plus"></i> Know More</button>
+					</div>
+				</div>
+				<div class="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2 wow fadeInRight">
+					<div class="process-box box-koire">
+					<i class="fa  fa-cogs"></i>
+					<h4>Setting Koire</h4>
+					<p>Lorem ipsum is dummy lorem very dumy</p>
+					<button data-toggle="modal" data-target="#modal-3" class="process-btn"><i class="fa fa-plus"></i> Know More</button>
+					</div>
+				</div>
+				<div class="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2 wow fadeInRight">
+					<div class="process-box box-lara">
+					<i class="fa fa-camera-retro"></i>
+					<h4>Ko Image Lara</h4>
+					<p>Lorem ipsum is dummy lorem very dumy</p>
+					<button data-toggle="modal" data-target="#modal-3" class="process-btn"><i class="fa fa-plus"></i> Know More</button>
+					</div>
+				</div>
+			</div>
+		</div> <!-- /container -->
+	</section>
+
+	<section id="works">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 section-header text-center wow fadeInDown">
+					<h2><span>Featured </span>Works</h2>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit Maiores fuga provident Libero.</p>
+				</div>			
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-xs-12 wow zoomInLeft ">
+					<div class="works-boks">
+						<img src="img/one.jpg" alt="дом-на-орбите">	
+							<div class="signature">
+	                    		<div class="sign">
+	                    			<p>Work #1</p>
+	                    			<button><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Visit Gallery</a></button>
+	                    		</div>
+							</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-xs-12 wow zoomInDown">
+					<div class="works-boks">
+					<img src="img/two.jpg" alt="Описание картинки">	
+						<div class="signature">
+	                    	<div class="sign">
+	                    		<p>Work #2</p>
+	                    		<button><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Visit Gallery</a></button>
+	                    	</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-xs-12 wow zoomInRight">
+					<div class="works-boks">
+					<img src="img/free.jpg" alt="Описание картинки">	
+					<div class="signature">
+	                    <div class="sign">
+	                    	<p>Work #3</p>
+	                    	<button><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Visit Gallery</a></button>
+	                    </div>
+					</div>
+					</div>
+				</div>
+			</div> <!--/row-->
+			<div class="row works-row">
+				<div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-xs-12 wow zoomInLeft">
+					<div class="works-boks">
+					<img src="img/four.jpg" alt="Описание картинки">	
+						<div class="signature">
+	                    	<div class="sign">
+	                    		<p>Work #4</p>
+	                    		<button><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Visit Gallery</a></button>
+	                    </div>
+					</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-xs-12 wow zoomIn">
+					<div class="works-boks">
+					<img src="img/five.jpg" alt="Описание картинки">	
+					<div class="signature">
+	                    <div class="sign">
+	                    	<p>Work #5</p>
+	                    	<button><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Visit Gallery</a></button>
+	                    </div>
+					</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-xs-12 wow zoomInRight">
+					<div class="works-boks">
+					<img src="img/six.jpg" alt="Описание картинки">	
+						<div class="signature">
+	                    	<div class="sign">
+	                    		<p>Work #6</p>
+	                    		<button ><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Visit Gallery</a>
+	                    </div></button>
+	                    		
+					</div>
+					</div>
+				</div>
+			</div> <!--/row-->
+			<div class="row works-row">
+				<div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-xs-12 wow zoomInLeft">
+					<div class="works-boks">
+					<img src="img/seven.jpg" alt="Описание картинки">	
+						<div class="signature">
+	                    	<div class="sign">
+	                    		<p>Work #7</p>
+	                    		<button><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Visit Gallery</a></button>
+	                    </div>
+					</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-xs-12 wow zoomInUp">
+					<div class="works-boks">
+					<img src="img/eight.jpg" alt="Описание картинки">	
+						<div class="signature">
+	                    	<div class="sign">
+	                    		<p>Work #8</p>
+	                    		<button><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Visit Gallery</a></button>
+	                    </div>
+					</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-xs-12 wow zoomInRight">
+					<div class="works-boks">
+					<img src="img/nine.jpg" alt="Описание картинки">	
+						<div class="signature">
+	                    	<div class="sign">
+	                    		<p>Work #9</p>
+	                    		<button><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Visit Gallery</a></button>
+	                    </div>
+					</div>
+					</div>
+				</div>
+			</div> <!--/row-->
+		</div>
+	</section>
+
+	<section id="services">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-lg-12 section-header text-center wow fadeInDown">
+					<h2><span>Services</span> We Provide</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum voluptatem, nihil animi?</p>
+				</div>
+			</div>
+
+			<div class="row">
+
+				<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12  wow pulse">
+					<ul>
+						<div role="tablist" class="services-list">
+							<li  role="presentation" class="services-list-item services-shadow-one wow  zoomInDown">
+								<a href="#app" aria-controls="app" role="tab" data-toggle="tab">
+									<img src="img/services/1.png" alt="1">
+								</a>
+							</li>
+							<li role="presentation" class="services-list-item services-shadow-two wow zoomIn">
+								<a href="#global" aria-controls="global" role="tab" data-toggle="tab" >
+									<img src="img/services/2.png" alt="2">
+								</a>
+							</li>
+							<li role="presentation" class="services-list-item services-shadow-free wow zoomInUp">
+								<a href="#web" aria-controls="web" role="tab" data-toggle="tab" >
+									<img src="img/services/3.png" alt="3">
+								</a>
+							</li>
+						</div>
+					</ul>
+				</div>
+
+				<div class="col-lg-10 col-md-10 col0sm-10 col-xs-10  wow lightSpeedIn">
+
+					<div class="services-info tab-content">
+
+					<div id="app" class="row tab-pane fade in active" role="tabpanel">
+						<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 col-xs-8">
+							<h4>Modern App Design</h4>
+							<span class="services-line"></span>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus earum totam ad sint error porro. Consectetur, sunt, aperiam. Magni rem optio distinctio illum consequuntur delectus nulla illo aperiam itaque cumque.</p>
+							
+							<div class="wow pulse">
+								<button data-toggle="modal" data-target="#modal-2" class="services-btn "><i class=" fa fa-plus"></i> Know More</button>
+							</div>
+						</div>
+						<div class="col-lg-4  col-md-4 col-sm-4 col-xs-4">
+							<img class ="img-responsive" src="img/services/info-1.png" alt="Часы">
+						</div>
+					</div> <!--/row-->
+
+					<div id="global" class="row tab-pane fade" role="tabpanel">
+						<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 col-xs-">
+							<h4>Modern Global Design</h4>
+							<span class="services-line"></span>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus earum totam ad sint error porro. Consectetur, sunt, aperiam. Magni rem optio distinctio illum consequuntur delectus nulla illo aperiam itaque cumque.</p>
+							
+							<div class="wow pulse">
+								<button data-toggle="modal" data-target="#modal-2" class="services-btn"><i class=" fa fa-plus"></i> Know More</button>
+							</div>
+						</div>
+
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+							<img class ="img-responsive" src="img/services/info-2.png" alt="Часы">
+						</div>
+
+					</div> <!--/row-->
+
+					<div id="web" class="row tab-pane fade" role="tabpanel">
+						<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8   col-xs-">
+							<h4>Modern Web Design</h4>
+							<span class="services-line"></span>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus earum totam ad sint error porro. Consectetur, sunt, aperiam. Magni rem optio distinctio illum consequuntur delectus nulla illo aperiam itaque cumque.</p>
+							
+							<div class="wow pulse">
+								<button data-toggle="modal" data-target="#modal-2" class="services-btn"><i class=" fa fa-plus"></i> Know More</button>
+							</div>
+						</div>
+
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+							<img class ="img-responsive" src="img/services/info-3.png" alt="Часы">
+						</div>
+
+					</div> <!--/row--> 
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="FAQ">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 section-header text-center wow fadeInDown">
+					<h2><span>Frequently</span> Asked Questions</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum sapiente minima architecto eum, quos voluptates.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+						  <div class="panel panel-default wow bounceInLeft">
+						    <div class="panel-heading" role="tab" id="headingOne">
+						      <h4 class="panel-title">
+						        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+						          Collapsible Group Item #1
+						        </a>
+						      </h4>
+						    </div>
+						    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+						      <div class="panel-body">
+						        <img class="padding" src="img/two.jpg" alt="">
+						      <img class="padding" src="img/free.jpg" alt="">
+						      <img class="padding" src="img/four.jpg" alt="">
+						      </div>
+						    </div>
+						  </div>
+						  <div class="panel panel-default wow bounceInRight">
+						    <div class="panel-heading" role="tab" id="headingTwo">
+						      <h4 class="panel-title">
+						        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+						          Collapsible Group Item #2
+						        </a>
+						      </h4>
+						    </div>
+						    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+						      <div class="panel-body">
+						      <img id="center" src="img/one.jpg" alt="" >
+						      <p class='text-center'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque cumque, autem voluptates itaque at architecto fugiat cum ea tempora ipsa culpa illo fugit, qui atque placeat consequuntur fuga sunt earum molestiae quam vitae reiciendis debitis et possimus. Dolorem, optio, doloribus. Blanditiis culpa vel error saepe id totam repellendus doloribus possimus.</p>
+									 
+						      </div>
+						    </div>
+						  </div>
+						  <div class="panel panel-default wow bounceInLeft">
+						    <div class="panel-heading" role="tab" id="headingThree">
+						      <h4 class="panel-title">
+						        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+						          Collapsible Group Item #3
+						        </a>
+						      </h4>
+						    </div>
+						    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+						      <div class="panel-body">
+						      
+						       <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.</p>
+						      </div>
+						    </div>
+						  </div>
+						  <div class="panel panel-default wow bounceInRight">
+						    <div class="panel-heading" role="tab" id="headingFour">
+						      <h4 class="panel-title">
+						        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+						          Collapsible Group Item #4
+						        </a>
+						      </h4>
+						    </div>
+						    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+						      <div class="panel-body">
+						        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod velit assumenda magni esse repellat. Laboriosam voluptates iure accusamus saepe eius! Fugiat ipsa laudantium quos dignissimos magnam iure illum suscipit quidem repellendus sit quia, nemo, provident at! Eos assumenda dignissimos animi cum nihil necessitatibus sunt quo deserunt ratione maxime, ipsum voluptas provident. Accusamus, hic odit saepe. Blanditiis nam amet dignissimos, tempore pariatur. Recusandae vel totam, quae ipsa praesentium consequuntur provident! Voluptate consequatur iste numquam, asperiores provident officia enim repudiandae sequi totam, distinctio similique suscipit sint fugit alias eius illo cumque repellat possimus accusantium atque. Iste officia ratione, itaque accusamus reprehenderit tenetur ipsam libero vitae est. Quisquam sint quis pariatur error, repellendus, voluptatibus mollitia beatae quod perspiciatis. 
+						      </div>
+						    </div>
+						  </div>
+						</div> <!--/accordion-->
+				</div> <!--/col-lg-12-->
+			</div> <!--/row-->
+		</div> <!--container-->
+	</section>
+
+	<section id="feedback">
+		<div class="container">
+			<div class="col-lg-12 ">
+				<div class="feedback-slider">
+					<div class="feedback-slider-item text-center">
+						<div id="111" class="feedback-box">
+							<img class="img-circle center-block feedback-img " src="img/feedback/2.jpg" alt="Mike">
+							<div class="feedback-shadow">
+								<p>“This was my first time renting from car rental. The service rep help me find the best rental to suit my needs. I will definitely rent with this company again”</p>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<p><span>Kita Say</span>, HK Director</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="feedback-slider-item text-center">
+						<div id="111" class="feedback-box">
+							<img class="img-circle center-block feedback-img" src="img/feedback/1.jpg" alt="Mike">
+							<div class="feedback-shadow">
+								<p>“This was my first time renting from car rental. The service rep help me find the best rental to suit my needs. I will definitely rent with this company again”</p>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<p><span>Al Rayhan</span>, UX Director</p>
+							</div>
+						</div>	
+					</div>
+
+					<div class="feedback-slider-item text-center wow pulse">
+						<div id="111" class="feedback-box">
+							<img class="img-circle center-block feedback-img" src="img/feedback/2.jpg" alt="Mike">
+							<div class="feedback-shadow">
+								<p>“This was my first time renting from car rental. The service rep help me find the best rental to suit my needs. I will definitely rent with this company again”</p>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<p><span>Kita Say</span>, HK Director</p>
+							</div>
+						</div>	
+					</div>
+
+					<div class="feedback-slider-item text-center wow pulse">
+						<div id="111" class="feedback-box">
+							<img class="img-circle center-block feedback-img" src="img/feedback/1.jpg" alt="Mike">
+							<div class="feedback-shadow">
+								<p>“This was my first time renting from car rental. The service rep help me find the best rental to suit my needs. I will definitely rent with this company again”</p>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<p><span>Al Rayhan</span>, , UX Director</p>
+							</div>
+						</div>	
+					</div>
+
+					<div class="feedback-slider-item text-center wow pulse">
+						<div id="111" class="feedback-box">
+							<img class="img-circle center-block feedback-img" src="img/feedback/2.jpg" alt="Mike">
+							<div class="feedback-shadow">
+								<p>“This was my first time renting from car rental. The service rep help me find the best rental to suit my needs. I will definitely rent with this company again”</p>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<p><span>Kita Say</span>, HK Director</p>
+							</div>
+						</div>	
+					</div>
+
+					<div class="feedback-slider-item text-center wow pulse">
+						<div id="111" class="feedback-box">
+							<img class="img-circle center-block feedback-img" src="img/feedback/1.jpg" alt="Mike">
+							<div class="feedback-shadow">
+								<p>“This was my first time renting from car rental. The service rep help me find the best rental to suit my needs. I will definitely rent with this company again”</p>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<p><span>Al Rayhan</span>, UX Director</p>
+							</div>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer id="footer">
+		<div class="container">
+			<div class="row wow pulse">
+				<div class="col-lg-12 text-center">
+				<button  data-toggle="modal" data-target="#modal-1" class="footer-btn">Contact Us</button>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+		<!-- modals-->
+	<div class="modal fade bs-example-modal-lg" id="modal-3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog modal-lg" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+	      </div>
+	      <div class="modal-body">
+	        ...
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        <button type="button" class="btn btn-primary">Save changes</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<div class="modal fade" id="modal-thanks" data-backdrop="true" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog modal-sm" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="myModalLabel">Спасибо за зявку</h4>
+	      </div>
+	      <div class="modal-body">
+	        <p>текст</p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	
+		<div class="modal fade bs-example-modal-sm" id="modal-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog modal-sm" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="myModalLabel">Contact Us</h4>
+		      </div>
+		      <div class="modal-body">
+		        <p>Содержимое окна</p>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		        <button type="button" class="btn btn-primary">Save changes</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<div class="cd-modal" data-modal="modal-trigger">
+		<div class="cd-svg-bg" 
+		data-step1="M-59.9,540.5l-0.9-1.4c-0.1-0.1,0-0.3,0.1-0.3L864.8-41c0.1-0.1,0.3,0,0.3,0.1l0.9,1.4c0.1,0.1,0,0.3-0.1,0.3L-59.5,540.6 C-59.6,540.7-59.8,540.7-59.9,540.5z" 
+		data-step2="M33.8,690l-188.2-300.3c-0.1-0.1,0-0.3,0.1-0.3l925.4-579.8c0.1-0.1,0.3,0,0.3,0.1L959.6,110c0.1,0.1,0,0.3-0.1,0.3 L34.1,690.1C34,690.2,33.9,690.1,33.8,690z" 
+		data-step3="M-465.1,287.5l-0.9-1.4c-0.1-0.1,0-0.3,0.1-0.3L459.5-294c0.1-0.1,0.3,0,0.3,0.1l0.9,1.4c0.1,0.1,0,0.3-0.1,0.3 l-925.4,579.8C-464.9,287.7-465,287.7-465.1,287.5z" 
+		data-step4="M-329.3,504.3l-272.5-435c-0.1-0.1,0-0.3,0.1-0.3l925.4-579.8c0.1-0.1,0.3,0,0.3,0.1l272.5,435c0.1,0.1,0,0.3-0.1,0.3 l-925.4,579.8C-329,504.5-329.2,504.5-329.3,504.3z" 
+		data-step5="M341.1,797.5l-0.9-1.4c-0.1-0.1,0-0.3,0.1-0.3L1265.8,216c0.1-0.1,0.3,0,0.3,0.1l0.9,1.4c0.1,0.1,0,0.3-0.1,0.3L341.5,797.6 C341.4,797.7,341.2,797.7,341.1,797.5z" 
+		data-step6="M476.4,1013.4L205,580.3c-0.1-0.1,0-0.3,0.1-0.3L1130.5,0.2c0.1-0.1,0.3,0,0.3,0.1l271.4,433.1c0.1,0.1,0,0.3-0.1,0.3 l-925.4,579.8C476.6,1013.6,476.5,1013.5,476.4,1013.4z">
+			<svg height="100%" width="100%" preserveAspectRatio="none" viewBox="0 0 800 500">
+				<title>SVG Modal background</title>
+				<path id="cd-changing-path-1" d="M-59.9,540.5l-0.9-1.4c-0.1-0.1,0-0.3,0.1-0.3L864.8-41c0.1-0.1,0.3,0,0.3,0.1l0.9,1.4c0.1,0.1,0,0.3-0.1,0.3L-59.5,540.6 C-59.6,540.7-59.8,540.7-59.9,540.5z"/>
+				<path id="cd-changing-path-2" d="M-465.1,287.5l-0.9-1.4c-0.1-0.1,0-0.3,0.1-0.3L459.5-294c0.1-0.1,0.3,0,0.3,0.1l0.9,1.4c0.1,0.1,0,0.3-0.1,0.3 l-925.4,579.8C-464.9,287.7-465,287.7-465.1,287.5z"/>
+				<path id="cd-changing-path-3" d="M341.1,797.5l-0.9-1.4c-0.1-0.1,0-0.3,0.1-0.3L1265.8,216c0.1-0.1,0.3,0,0.3,0.1l0.9,1.4c0.1,0.1,0,0.3-0.1,0.3L341.5,797.6 C341.4,797.7,341.2,797.7,341.1,797.5z"/>
+			</svg>
+		</div>
+
+		<div class="cd-modal-content">
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad modi repellendus, optio eveniet eligendi molestiae? Fugiat, temporibus! A rerum pariatur neque laborum earum, illum voluptatibus eum voluptatem fugiat, porro animi tempora? Sit harum nulla, nesciunt molestias, iusto aliquam aperiam est qui possimus reprehenderit ipsam ea aut assumenda inventore iste! Animi quaerat facere repudiandae earum quisquam accusamus tempora, delectus nesciunt, provident quae aliquam, voluptatum beatae quis similique in maiores repellat eligendi voluptas veniam optio illum vero! Eius, dignissimos esse eligendi veniam.
+			</p>
+
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad modi repellendus, optio eveniet eligendi molestiae? Fugiat, temporibus! A rerum pariatur neque laborum earum, illum voluptatibus eum voluptatem fugiat, porro animi tempora? Sit harum nulla, nesciunt molestias, iusto aliquam aperiam est qui possimus reprehenderit ipsam ea aut assumenda inventore iste! Animi quaerat facere repudiandae earum quisquam accusamus tempora, delectus nesciunt, provident quae aliquam, voluptatum beatae quis similique in maiores repellat eligendi voluptas veniam optio illum vero! Eius, dignissimos esse eligendi veniam.
+			</p>
+		</div> <!-- cd-modal-content -->
+
+		<a href="#0" class="modal-close">Close</a>
+	</div> <!-- cd-modal -->
+
+	<div class="cd-cover-layer"></div> <!-- .cd-cover-layer -->
+
+	<div class="overlay-nav">
+	<span class="close-nav">&times;</span>
+		<ul>
+			<li><a href="">Главная</a></li>
+			<li><a href="">О нас</a></li>
+			<li><a href="">Портфолио</a></li>
+			<li><a href="">Карта</a></li>
+			<li><a href="">Цены</a></li>
+		</ul>
+	</div>
+
+	<!--script-->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="slick/slick.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/snap.svg-min.js"></script>
+    <script src="js/main.js"></script> <!-- Resource jQuery -->
+	<script>
+		new WOW().init();
+	</script>
+	<script>
+		$(document).ready(function(){
+		 $('.feedback-slider').slick({
+			infinite: true,
+			slidesToShow: 2,
+			slidesToScroll: 2,
+			arrows: true,
+			prevArrow: '<i class="fa button arrows-left fa-chevron-left"></i>',
+			nextArrow: '<i class="fa button arrows-right fa-chevron-right"></i>',
+			dots: true,
+		  });
+		});
+	</script>
+	<script>
+		//jQuery is required to run this code
+$( document ).ready(function() {
+
+    scaleVideoContainer();
+
+    initBannerVideoSize('.video-container .poster img');
+    initBannerVideoSize('.video-container .filter');
+    initBannerVideoSize('.video-container video');
+
+    $(window).on('resize', function() {
+        scaleVideoContainer();
+        scaleBannerVideoSize('.video-container .poster img');
+        scaleBannerVideoSize('.video-container .filter');
+        scaleBannerVideoSize('.video-container video');
+    });
+
+});
+
+function scaleVideoContainer() {
+
+    var height = $(window).height() + 5;
+    var unitHeight = parseInt(height) + 'px';
+    $('.homepage-hero-module').css('height',unitHeight);
+
+}
+
+function initBannerVideoSize(element){
+
+    $(element).each(function(){
+        $(this).data('height', $(this).height());
+        $(this).data('width', $(this).width());
+    });
+
+    scaleBannerVideoSize(element);
+
+}
+
+function scaleBannerVideoSize(element){
+
+    var windowWidth = $(window).width(),
+    windowHeight = $(window).height() + 5,
+    videoWidth,
+    videoHeight;
+
+    // console.log(windowHeight);
+
+    $(element).each(function(){
+        var videoAspectRatio = $(this).data('height')/$(this).data('width');
+
+        $(this).width(windowWidth);
+
+        if(windowWidth < 1000){
+            videoHeight = windowHeight;
+            videoWidth = videoHeight / videoAspectRatio;
+            $(this).css({'margin-top' : 0, 'margin-left' : -(videoWidth - windowWidth) / 2 + 'px'});
+
+            $(this).width(videoWidth).height(videoHeight);
+        }
+
+        $('.homepage-hero-module .video-container video').addClass('fadeIn animated');
+
+    });
+}
+	</script>
+	<script>
+		$(document).ready(function(){
+		   $('#main_form_ajax').submit(function(){
+		    $.ajax({
+		    type:"POST",
+		    url: "mail.php",
+		    data: $(this).serialize()
+		}).done(function(){
+		    $(this).find("input").val("");
+		    alert("Спасибо за заявку! Скоро мы с вами свяжемся.");
+		    $('#main_form_ajax').trigger("reset");
+		    });
+		 return false;
+     });
+});
+	</script>
+	<script>
+		$(document).ready(function() {
+			var $nav = $('a.main_nav_bar');
+			$nav.click(function() {
+				$('.overlay-nav').show();
+
+			})
+			$('.close-nav').click(function() {
+				$('.overlay-nav').hide();
+			})
+		})
+	</script>
+	<script src="js/jquery.maskedinput.min.js" type="text/javascript"></script>
+	<script>
+		jQuery(function($){
+   $("#phone").mask("+7 (999) 999-99-99");
+});
+	</script>
+	<script>
+		$(document).ready(function() {
+			$('#submit-form').click(function() {
+				if ($('#userName').val() !== '')
+					$('main_form_ajax').submit();
+				 {} else {
+				 	alert('Вы не заполнили ИМЯ');
+				 } 
+			})
+		})
+	</script>
+	<script>
+		$(document).ready(function() {
+			if ($('input#userName').val() !== '') {
+				$('#modal-1').modal('show');
+			}
+		})
+	</script>
+</body>
+</html>
